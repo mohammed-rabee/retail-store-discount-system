@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: retail
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_db?currentSchema=schema_1&stringtype=unspecified
+    username: dev
+    password: dev
